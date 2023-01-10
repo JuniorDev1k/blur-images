@@ -1,0 +1,40 @@
+.container{
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(85, 85, 142);
+}
+
+.time-block{
+  background-color:rgb(167, 160, 160);
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid white;
+  border-radius: 5px;
+
+  
+}
+
+
+.image-container{
+    margin-top: 700px;
+    border: solid rgb(109, 101, 101 ) 1px;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.images-js{
+  width: 150px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 25px;
+  border: 1px rgb(131, 70, 70) dashed;
+  opacity: .2;
+}
+
